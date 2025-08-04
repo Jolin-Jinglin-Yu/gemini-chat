@@ -35,7 +35,7 @@ Question: {user_input}
 
 
 # Set Google API key (replace with your key or use an env variable)
-GOOGLE_API_KEY = 'YOUR_GOOGLE_API_KEY' # "YOUR_GOOGLE_API_KEY"  # Replace with your actual Gemini API key
+GOOGLE_API_KEY = 'AIzaSyBWa_epo6k_KBHdIGFQMeLL_okaabVEXw0' # "YOUR_GOOGLE_API_KEY"  # Replace with your actual Gemini API key
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
